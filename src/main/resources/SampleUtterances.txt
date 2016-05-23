@@ -1,0 +1,13 @@
+TwitterSearchIntent search {test|SearchTerm}
+TwitterSearchIntent search {test test|SearchTerm}
+TwitterSearchIntent search {test test test|SearchTerm}
+TwitterSearchIntent search for {test|SearchTerm}
+TwitterSearchIntent search {Count} tweets for {test|SearchTerm}
+TwitterTimelineIntent get my timeline
+TwitterMentionIntent get my mentions
+TwitterMentionIntent get my last {Count} mentions
+TwitterMyLatestsPostsIntent get my latest tweets
+TwitterMyLatestsPostsIntent get my last {Count} tweets
+GroovyVersionIntent what version of groovy do you run
+GroovyVersionIntent do you run groovy
+TwitterAccountLink Link twitter account

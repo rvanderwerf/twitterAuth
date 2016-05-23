@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "intent": "TwitterAccountLink"
+
+    },
+    {
+      "intent": "TwitterSearchIntent",
+      "slots": [
+        {
+          "name": "SearchTerm",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "Count",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TwitterMyLatestsPostsIntent",
+      "slots": [
+        {
+          "name": "SearchTerm",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "Count",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TwitterTimelineIntent",
+      "slots": [
+        {
+          "name": "SearchTerm",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "Count",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TwitterMentionIntent",
+      "slots": [
+        {
+          "name": "SearchTerm",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "Count",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "GroovyVersionIntent"
+    }
+  ]
+}
