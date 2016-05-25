@@ -21,10 +21,11 @@ To start using this app you'll need to set up a few things:
 ##IDEA / EDITOR
 - Fill in these details in file: application.groovy for fallback (if the user doesn't have an account).
 
-##AMAZON Lambda / Alexa Skill tie together
-- Sign up for the Amazon developer program [here](https://developer.amazon.com) if you haven't already
+
+
 
 ##AMAZON Alexa skill / Grails tie together
+- Sign up for the Amazon developer program [here](https://developer.amazon.com) if you haven't already
 - Click on Apps and Services -> Alexa
 - Click on Alexa Skill Kit / Get Started -> Add New Skill
 - Pick any name and any invocation name you want to start the app on your Echo / Alexa Device
@@ -32,7 +33,7 @@ To start using this app you'll need to set up a few things:
 
 ##IDEA / EDITOR -> FILES COPIED TO AMAZON ALEXA SKILL IN AWS
 - Copy the contents of src/main/resources/IntentSchema.json into Intent Schema.
-- Under Custom Slot types, follow the instructions found inside of /src/main/resources/slots.txt
+- Don't fill in anything for slots
 - Under Sample Utterances, copy the contents of the file src/main/resources/SampleUtterances.txt
 - Under configuration Copy the url for /twitterAuth/twitter/index for the endpoint for your server (Choose amazon https not ARN). Click next
 - Check 'enable account linking'
